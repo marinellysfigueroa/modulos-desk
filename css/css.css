@@ -156,6 +156,7 @@ body
     background-color: white;
     justify-content: center;
    align-items: center;
+   
 }
 
 .second-seccion .izquierda
@@ -182,18 +183,61 @@ body
     
 }
 
+/*seccion 3*/
+.third-seccion 
+{
+   background-color: #f6f6f6;
+   flex: 1 1 100%;
+   box-sizing: border-box;
+   margin: 1.07143rem 2.14286rem;
+   text-align: center;
+   font-size: 1rem;
+   display: flex;
+}
+.third-seccion .top p, h1 
+{
+  text-align: center;
+  max-width: 100%;
+  display: block;
+}
+.third-seccion   h3 
+{
+  margin-top: 20%;
+  text-align: center;
+  position: relative;
+}
+.third-seccion .top
+{
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.third-seccion .primero
+{
+    position: absolute;
+    width: 25%;
+}
+
+.third-seccion .segundo
+{
+    position: absolute;
+    width: 25%;
+    margin-left: 35%;  
+}
+.third-seccion .tercero
+{
+    position: relative;
+    width: 25%;
+   margin-left: 70%; 
+}
 
 div img
 {
     width: 100%;
-    position: inherit;
-    
-    
 }
 p
 {
     font-size: 1.14286rem;
     text-align: justify;
     margin-left: 5px;
-
 }
